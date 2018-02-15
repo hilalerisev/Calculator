@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class Carpma
+    class Mod
     {
-        public  double carpmaIslemi(double a,double b)
+        public int modAlma(int a, int b)
         {
-            return a * b;
+            return a % b;
         }
     }
 }
