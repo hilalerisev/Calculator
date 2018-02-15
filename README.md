@@ -1,3 +1,3 @@
 # Calculator
 
-15253022 Hilal ERİSEV ---> Toplama Modülü 
+15253002 Büşra AKGÜLLER ---> Çarpma Modülü
