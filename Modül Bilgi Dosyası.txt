@@ -1,0 +1,10 @@
+Modül Ismi		Kim Çalisti		Iliskili Oldugu Modüller		Çalisiyor mu
+
+Toplama			Hilal Erisev		Toplama Metodu				Evet
+Çikarma			Tugçe Yildirim		Çikarma Metodu				Evet
+Çarpma			Büsra Akgüller		Çarpma Metodu				Evet
+Bölme			Dogukan Arkan		Bölme Metodu				Evet
+Mod Alma		Tugçe Yildirim		Mod Alma Metodu				Evet
+Bölme Kurallari		Büsra Akgüller		Bölme Metodu				Evet
+Üs Alma			Hilal Yildirim		Üs Alma Metodu				Evet
+Faktöriyel		Dogukan Arkan		Faktöriyel Metodu			Evet

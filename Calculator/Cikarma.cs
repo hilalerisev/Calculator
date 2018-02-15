@@ -8,7 +8,7 @@ namespace Calculator
 {
     class Cikarma
     {
-        public double cikarmaIslemi(double a, double b)
+        public static double cikarmaIslemi(double a, double b)
         {
             return a - b;
         }

@@ -8,7 +8,7 @@ namespace Calculator
 {
     class Carpma
     {
-        public  double carpmaIslemi(double a,double b)
+        public static double carpmaIslemi(double a,double b)
         {
             return a * b;
         }
