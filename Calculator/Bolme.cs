@@ -8,7 +8,7 @@ namespace Calculator
 {
     class Bolme
     {
-        public static double bolmeIslemi(double a, double b)
+        public static void bolmeIslemi(double a, double b)
         {
             double result = 0;
 
@@ -22,6 +22,7 @@ namespace Calculator
                 Console.WriteLine("Bölen 0 olamaz.");
             }
         }
+
         public static double kontrol(double a, double b)
         {
             if (b == 0)

@@ -51,7 +51,7 @@ namespace Calculator
                     a = Convert.ToInt32(Console.ReadLine());
                     Console.Write("2. sayıyı giriniz:");
                     b = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Sonuç: " + Bolme.bolmeIslemi(a, b));
+                    Bolme.bolmeIslemi(a, b);
                     break;
                 case 5:
                     Console.Write("1. sayıyı giriniz:");
