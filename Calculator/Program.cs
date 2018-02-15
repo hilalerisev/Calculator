@@ -18,6 +18,7 @@ namespace Calculator
             Console.WriteLine("5. Mod Alma İşlemi");
             Console.WriteLine("6. Üs Alma İşlemi");
             Console.WriteLine("7. Faktöriyel İşlemi");
+            Console.Write("Bir işlem seçiniz:");
 
             int girdi = Convert.ToInt32(Console.ReadLine());
             int a, b;
@@ -29,49 +30,47 @@ namespace Calculator
                     a = Convert.ToInt32(Console.ReadLine());
                     Console.Write("2. sayıyı giriniz:");
                     b = Convert.ToInt32(Console.ReadLine());
-                    Toplama.toplamaIslemi(a, b);
+                    Console.WriteLine("Sonuç: " + Toplama.toplamaIslemi(a, b));
                     break;
                 case 2:
                     Console.Write("1. sayıyı giriniz:");
                     a = Convert.ToInt32(Console.ReadLine());
                     Console.Write("2. sayıyı giriniz:");
                     b = Convert.ToInt32(Console.ReadLine());
-                    Cikarma.cikarmaIslemi(a, b);
+                    Console.WriteLine("Sonuç: " + Cikarma.cikarmaIslemi(a, b));
                     break;
                 case 3:
                     Console.Write("1. sayıyı giriniz:");
                     a = Convert.ToInt32(Console.ReadLine());
                     Console.Write("2. sayıyı giriniz:");
                     b = Convert.ToInt32(Console.ReadLine());
-                    Carpma.carpmaIslemi(a, b);
+                    Console.WriteLine("Sonuç: " + Carpma.carpmaIslemi(a, b));
                     break;
                 case 4:
                     Console.Write("1. sayıyı giriniz:");
                     a = Convert.ToInt32(Console.ReadLine());
                     Console.Write("2. sayıyı giriniz:");
                     b = Convert.ToInt32(Console.ReadLine());
-                    Bolme.bolmeIslemi(a, b);
+                    Console.WriteLine("Sonuç: " + Bolme.bolmeIslemi(a, b));
                     break;
                 case 5:
                     Console.Write("1. sayıyı giriniz:");
                     a = Convert.ToInt32(Console.ReadLine());
                     Console.Write("2. sayıyı giriniz:");
                     b = Convert.ToInt32(Console.ReadLine());
-                    
+                    Console.WriteLine("Sonuç: " + Mod.modAlma(a, b));
                     break;
                 case 6:
                     Console.Write("1. sayıyı giriniz:");
                     a = Convert.ToInt32(Console.ReadLine());
                     Console.Write("2. sayıyı giriniz:");
                     b = Convert.ToInt32(Console.ReadLine());
-                    Toplama.toplamaIslemi(a, b);
+                    Console.WriteLine("Sonuç: " + UsAlma.usAl(a, b));
                     break;
                 case 7:
-                    Console.Write("1. sayıyı giriniz:");
+                    Console.Write("Sayıyı giriniz:");
                     a = Convert.ToInt32(Console.ReadLine());
-                    Console.Write("2. sayıyı giriniz:");
-                    b = Convert.ToInt32(Console.ReadLine());
-                    Toplama.toplamaIslemi(a, b);
+                    Console.WriteLine("Sonuç: " + Faktoriyel.faktoriyelHesabi(a));
                     break;
                 default:
                     break;

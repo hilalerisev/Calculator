@@ -8,7 +8,7 @@ namespace Calculator
 {
     class Mod
     {
-        public int modAlma(int a, int b)
+        public static int modAlma(int a, int b)
         {
             return a % b;
         }
