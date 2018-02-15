@@ -8,5 +8,9 @@ namespace Calculator
 {
     class Bolme
     {
+        public double bolmeIslemi(double a, double b)
+        {
+            return a / b;
+        }
     }
 }
