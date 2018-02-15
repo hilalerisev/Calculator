@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class Cikarma
+    class Mod
     {
-        public double cikarmaIslemi(double a, double b)
+        public int modAlma(int a, int b)
         {
-            return a - b;
+            return a % b;
         }
-
     }
 }
