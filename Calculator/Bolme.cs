@@ -10,14 +10,24 @@ namespace Calculator
     {
         public static double bolmeIslemi(double a, double b)
         {
-            if(b==0)
+            double result = 0;
+
+            try
             {
-               Console.WriteLine("Bölüm 0 olamaz");
-               return -1;
-                
+                result = kontrol(a, b);
+                Console.WriteLine("Sonuç: {0}", result);
             }
-            
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine("Bölen 0 olamaz.");
+            }
+        }
+        public static double kontrol(double a, double b)
+        {
+            if (b == 0)
+                throw new System.DivideByZeroException();
             return a / b;
         }
+
     }
 }
