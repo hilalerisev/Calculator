@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class Toplama
+    class UsAlma
     {
-        public static double toplamaIslemi(double a, double b)
+        public double usAl(double a,double b)
         {
-            return a + b;
+            return Math.Pow(a, b);
         }
     }
 }
