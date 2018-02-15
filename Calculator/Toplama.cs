@@ -8,7 +8,7 @@ namespace Calculator
 {
     class Toplama
     {
-        public double toplamaIslemi(double a, double b)
+        public static double toplamaIslemi(double a, double b)
         {
             return a + b;
         }

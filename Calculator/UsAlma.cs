@@ -8,7 +8,7 @@ namespace Calculator
 {
     class UsAlma
     {
-        public double usAl(double a,double b)
+        public static double usAl(double a,double b)
         {
             return Math.Pow(a, b);
         }
