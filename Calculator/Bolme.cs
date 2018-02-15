@@ -10,6 +10,13 @@ namespace Calculator
     {
         public double bolmeIslemi(double a, double b)
         {
+            if(b==0)
+            {
+               Console.WriteLine("Bölüm 0 olamaz");
+               return -1;
+                
+            }
+            
             return a / b;
         }
     }
