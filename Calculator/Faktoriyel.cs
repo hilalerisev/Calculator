@@ -8,7 +8,7 @@ namespace Calculator
 {
     class Faktoriyel
     {
-        public int faktoriyelHesabi(int a)
+        public static int faktoriyelHesabi(int a)
         {
             int sonuc = 1;
 

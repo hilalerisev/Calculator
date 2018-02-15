@@ -45,7 +45,7 @@
     <Compile Include="Bolme.cs" />
     <Compile Include="Carpma.cs" />
     <Compile Include="Cikarma.cs" />
-    <Compile Include="Mod.cs" />
+    <Compile Include="Faktoriyel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Toplama.cs" />

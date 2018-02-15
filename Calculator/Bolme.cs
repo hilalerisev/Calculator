@@ -8,7 +8,7 @@ namespace Calculator
 {
     class Bolme
     {
-        public double bolmeIslemi(double a, double b)
+        public static double bolmeIslemi(double a, double b)
         {
             if(b==0)
             {
